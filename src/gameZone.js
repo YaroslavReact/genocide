@@ -4,7 +4,7 @@ import EnemyFields from "./EnemyFields"
 import { enemyHide } from "../store/moles/actions";
 
 
-
+    
 function GameZone(props) {
     function hideEnemy(enemy){
      enemy.target.classList.remove("show");
